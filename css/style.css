@@ -2716,7 +2716,6 @@ section.member-skills {
 
 
 .about-sec {
-    background-color: #F9ECF3;
     width: 1400px !important;
     padding-left: 50px !important;
     padding-right: 200px;
@@ -2746,4 +2745,222 @@ section.member-skills {
     padding: 0px !important;
     font-size: 1.3rem;
     font-weight: 700;
+    color: black;
 }
+
+
+/* High Value Packages section */
+
+.ag-format-container {
+    width: 100%;
+    margin: 0 auto;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+
+
+.ag-courses_box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding: 50px 0;
+}
+
+.ag-courses_item {
+    -ms-flex-preferred-size: calc(33.33333% - 30px);
+    flex-basis: calc(33.33333% - 30px);
+
+    margin: 0 15px 30px;
+
+    overflow: hidden;
+
+    border-radius: 28px;
+}
+
+.ag-courses-item_link {
+    display: block;
+    padding: 30px 20px;
+    background-color: white;
+    color: black;
+
+    overflow: hidden;
+
+    position: relative;
+}
+
+.ag-courses-item_link:hover,
+.ag-courses-item_link:hover .ag-courses-item_date {
+    text-decoration: none;
+    color: #FFF;
+}
+
+.ag-courses-item_link:hover .ag-courses-item_bg {
+    -webkit-transform: scale(10);
+    -ms-transform: scale(10);
+    transform: scale(10);
+}
+
+.ag-courses-item_title {
+    margin: 0 0 25px;
+
+    overflow: hidden;
+
+    font-weight: bold;
+    font-size: 25px;
+    color: balck;
+
+    z-index: 2;
+    position: relative;
+}
+
+.ag-courses-item_date-box {
+    font-size: 18px;
+    /* color: black; */
+
+    z-index: 2;
+    position: relative;
+}
+
+.ag-courses-item_date {
+    font-weight: bold;
+    color: #f9b234;
+
+    -webkit-transition: color .5s ease;
+    -o-transition: color .5s ease;
+    transition: color .5s ease
+}
+
+.ag-courses-item_bg {
+    height: 128px;
+    width: 128px;
+    background-color: #1133A4;
+
+    z-index: 1;
+    position: absolute;
+    top: -75px;
+    right: -75px;
+
+    border-radius: 50%;
+
+    -webkit-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease;
+}
+
+
+
+@media only screen and (max-width: 979px) {
+    .ag-courses_item {
+        -ms-flex-preferred-size: calc(50% - 30px);
+        flex-basis: calc(50% - 30px);
+    }
+
+    .ag-courses-item_title {
+        font-size: 24px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .ag-format-container {
+        width: 100%;
+    }
+
+}
+
+@media only screen and (max-width: 639px) {
+    .ag-courses_item {
+        -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+    }
+
+    .ag-courses-item_title {
+        min-height: 72px;
+        line-height: 1;
+
+        font-size: 24px;
+    }
+
+    .ag-courses-item_link {
+        padding: 22px 40px;
+    }
+
+    .ag-courses-item_date-box:hover {
+        font-size: 16px;
+    }
+}
+
+
+
+/* <!-- =========================== 6. complete package Section =============================== --> */
+
+
+.complete-package-area {
+    padding-left: 70px !important;
+    padding-right: 140px !important;
+}
+
+.com-pack-whole {
+    width: 100%;
+    display: flex;
+    justify-content: space-between !important;
+    align-items: center;
+}
+
+.com-pack-cont {
+    padding-right: 80px;
+    width: 50%;
+}
+
+.com-pack-cont>h5 {
+    color: #655CFF;
+    font-weight: 700 !important;
+    letter-spacing: -1px;
+}
+
+.com-pack-cont>h3 {
+    font-weight: 700;
+    margin-top: -5px;
+}
+
+.com-pack-cont>p {
+    margin-top: 10px;
+}
+
+
+.com-pack-img {
+    width: 50%;
+}
+
+
+
+.com-pack-img>img {
+    width: 620px;
+}
+
+
+
+/* Researchers WorldWide Section */
+
+
+.researchers-worldWide {
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-bottom: 70px;
+    margin-top: 80px;
+}
+
+.research-sec>h6 {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+
+

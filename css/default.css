@@ -112,11 +112,18 @@ input:focus, textarea:focus, button:focus {
 
 .section-heading {
     width: 49%;
-    margin: 100px 0 82px 0;
+    margin: 100px 0 50px 0;
+}
+
+.section-long-heading {
+    width: 70%;
+    margin: 100px 0 50px 0;
 }
 
 .section-heading h1, 
-.section-heading h2 {
+.section-heading h2,
+.section-long-heading h1, 
+.section-long-heading h2{
     font-size: 35px;
     font-family: 'Poppins', sans-serif;
     color: rgb(34, 54, 69);
@@ -124,7 +131,8 @@ input:focus, textarea:focus, button:focus {
     line-height: 1.343;
 }
 
-.section-heading p {
+.section-heading p,
+.section-long-heading p {
     font-size: 18px;
     font-family: 'Rubik', sans-serif;
     color: rgb(100, 117, 137);
