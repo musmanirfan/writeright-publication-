@@ -2727,9 +2727,16 @@ section.member-skills {
 
 
 .about-sec {
-    width: 1400px !important;
-    padding-left: 50px !important;
-    padding-right: 200px;
+    width: 100% !important;
+
+}
+
+
+@media (min-width: 1200px) {
+    .about-sec {
+        padding-left: 50px !important;
+        padding-right: 80px !important;
+    }
 }
 
 .icon-box {
@@ -2765,8 +2772,8 @@ section.member-skills {
 .ag-format-container {
     width: 100%;
     margin: 0 auto;
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 
@@ -2877,12 +2884,12 @@ section.member-skills {
     }
 }
 
-@media only screen and (max-width: 767px) {
+/* @media only screen and (max-width: 767px) {
     .ag-format-container {
         width: 100%;
     }
 
-}
+} */
 
 @media only screen and (max-width: 639px) {
     .ag-courses_item {
@@ -2912,20 +2919,24 @@ section.member-skills {
 
 
 .complete-package-area {
-    padding-left: 70px !important;
-    padding-right: 140px !important;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
 }
 
 .com-pack-whole {
     width: 100%;
     display: flex;
+    flex-direction: column;
     justify-content: space-between !important;
     align-items: center;
 }
 
+.complete-package-area .container :nth-child(3){
+    flex-direction: column-reverse;
+}
+
 .com-pack-cont {
-    padding-right: 80px;
-    width: 50%;
+    padding: 0px 20px;
 }
 
 .com-pack-cont>h5 {
@@ -2945,25 +2956,62 @@ section.member-skills {
 
 
 .com-pack-img {
-    width: 50%;
+    width: 90%;
 }
 
 
 
 .com-pack-img>img {
-    width: 620px;
+    width: 90%;
 }
 
+
+@media (min-width: 600px) {
+    .com-pack-whole {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between !important;
+        align-items: center;
+    }
+
+    .complete-package-area {
+        padding-left: 70px !important;
+        padding-right: 140px !important;
+    }
+
+    .com-pack-cont {
+        padding-right: 80px;
+        width: 50%;
+    }
+
+    .com-pack-img {
+        width: 50%;
+    }
+        
+    .com-pack-img>img {
+        width: 620px;
+    }
+}
 
 
 /* Researchers WorldWide Section */
 
 
 .researchers-worldWide {
-    padding-left: 70px;
-    padding-right: 70px;
-    padding-bottom: 70px;
-    margin-top: 80px;
+    padding-left: 20px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    margin-top: 30px;
+}
+
+.researchers-worldWide .section-long-heading{
+    width: 100%;
+}
+
+
+.researchers-worldWide .section-long-heading>h1{
+    font-size: 1.8rem;
 }
 
 .research-sec>h6 {
@@ -2972,6 +3020,34 @@ section.member-skills {
     font-weight: 700;
     margin-bottom: 20px;
 }
+
+
+.research{
+    flex-direction: column;
+    gap: 80px;
+}
+
+@media (min-width: 600px) {
+    .researchers-worldWide {
+        padding-left: 70px;
+        padding-right: 70px;
+        padding-bottom: 70px;
+        margin-top: 80px;
+    } 
+
+    .researchers-worldWide .section-long-heading{
+        width: 70%;
+    }
+
+    .researchers-worldWide .section-long-heading>h1{
+        font-size: 35px;
+    }
+
+    .research{
+        flex-direction: row;
+    }
+}
+
 
 
 
