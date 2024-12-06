@@ -636,7 +636,7 @@ section.speciality-area {
 }
 
 
-.speciality-area .speciality>img{
+.speciality-area .speciality>img {
     width: 330px !important;
 }
 
@@ -719,7 +719,7 @@ section.speciality-area {
 }
 
 @media (min-width: 600px) {
-    .speciality-area .speciality>img{
+    .speciality-area .speciality>img {
         width: 600px !important;
     }
 
@@ -2944,8 +2944,12 @@ section.member-skills {
     align-items: center;
 }
 
-.complete-package-area .container :nth-child(3){
+.complete-package-area .container :nth-child(3) {
     flex-direction: column-reverse;
+}
+
+.complete-package-area .container :nth-child(4) img {
+    width: 300px !important;
 }
 
 .com-pack-cont {
@@ -3001,13 +3005,17 @@ section.member-skills {
     .com-pack-img {
         width: 50%;
     }
-        
+
     .com-pack-img:nth-child(2)>img {
         width: 620px !important;
     }
 
-    .complete-package-area .container :nth-child(3){
+    .complete-package-area .container :nth-child(3) {
         flex-direction: row;
+    }
+
+    .complete-package-area .container :nth-child(4) img {
+        width: 600px !important;
     }
 }
 
@@ -3022,12 +3030,12 @@ section.member-skills {
     margin-top: 30px;
 }
 
-.researchers-worldWide .section-long-heading{
+.researchers-worldWide .section-long-heading {
     width: 100%;
 }
 
 
-.researchers-worldWide .section-long-heading>h1{
+.researchers-worldWide .section-long-heading>h1 {
     font-size: 1.8rem;
 }
 
@@ -3038,8 +3046,13 @@ section.member-skills {
     margin-bottom: 20px;
 }
 
+.research-sec img {
+    width: 95%;
+    margin: 0 auto;
+}
 
-.research{
+
+.research {
     flex-direction: column;
     gap: 80px;
 }
@@ -3053,18 +3066,22 @@ section.member-skills {
         padding-right: 70px;
         padding-bottom: 70px;
         margin-top: 80px;
-    } 
+    }
 
-    .researchers-worldWide .section-long-heading{
+    .research-sec img {
+        width: 100%;
+    }
+
+    .researchers-worldWide .section-long-heading {
         width: 70%;
     }
 
-    .researchers-worldWide .section-long-heading>h1{
+    .researchers-worldWide .section-long-heading>h1 {
         font-size: 35px;
     }
 
 
-    .research{
+    .research {
         flex-direction: row;
     }
 }
