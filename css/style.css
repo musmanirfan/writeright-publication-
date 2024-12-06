@@ -2754,6 +2754,11 @@ section.member-skills {
         gap: 5px !important;
     }
 
+    .team-section {
+        width: 90%;
+        margin: 50px auto !important;
+    }
+
     .team-visual {
         padding-left: 20px;
         position: relative;
