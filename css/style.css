@@ -2933,8 +2933,8 @@ section.member-skills {
 .ag-format-container {
     width: 100%;
     margin: 0 auto;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 
@@ -3045,12 +3045,15 @@ section.member-skills {
     }
 }
 
-/* @media only screen and (max-width: 767px) {
+@media only screen and (max-width: 767px) {
     .ag-format-container {
         width: 100%;
+        margin: 0 auto;
+        padding-left: 10px;
+        padding-right: 10px;
     }
 
-} */
+}
 
 @media only screen and (max-width: 639px) {
     .ag-courses_item {
