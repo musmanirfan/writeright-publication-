@@ -2166,6 +2166,17 @@ section.contact-area {
     border: none;
 }
 
+@media only screen and (max-width: 639px) {
+
+    .contact-form-area {
+        margin-top: 50px;
+        margin-bottom: 50px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+}
+
 /* ##################### 10. faq.html ##################### */
 
 .faq-box {
@@ -2734,21 +2745,22 @@ section.member-skills {
 /* Hide the blue circle image on mobile */
 @media (max-width: 768px) {
     .team-visual .main-bg {
-      display: none; /* Hides the blue circle image */
+        display: none;
+        /* Hides the blue circle image */
     }
 
-    .editor-bubble{
-       position: static;
+    .editor-bubble {
+        position: static;
     }
 
-    .tooltip-box{
+    .tooltip-box {
         bottom: -100px;
         left: 50%;
         transform: translate(-50%, -50%);
     }
 
 
-    .team-visual-wrapper{
+    .team-visual-wrapper {
         display: grid;
         grid-template-columns: repeat(5, 1fr);
         gap: 5px !important;
@@ -2763,7 +2775,7 @@ section.member-skills {
         padding-left: 20px;
         position: relative;
     }
-    
+
     .team-visual-wrapper {
         position: relative;
     }
@@ -2780,7 +2792,7 @@ section.member-skills {
         height: fit-content;
     }
 
-    .containerHide{
+    .containerHide {
         width: 100% !important;
     }
 
@@ -2799,60 +2811,71 @@ section.member-skills {
         top: 270px !important;
         left: -40px !important;
     }
-    
+
     .hide.tooltip-box.tooltip-box4 {
         top: 265px !important;
         left: -0px !important;
     }
+
     .hide.tooltip-box.tooltip-box5 {
         top: 260px !important;
         left: -50px !important;
     }
+
     .hide.tooltip-box.tooltip-box6 {
         top: 250px !important;
         left: 100px !important;
     }
+
     .hide.tooltip-box.tooltip-box7 {
         top: 250px !important;
         left: 35px !important;
     }
+
     .hide.tooltip-box.tooltip-box8 {
         top: 250px !important;
         left: 35px !important;
     }
+
     .hide.tooltip-box.tooltip-box9 {
         top: 250px !important;
         left: 0px !important;
     }
+
     .hide.tooltip-box.tooltip-box10 {
         top: 250px !important;
         left: -50px !important;
     }
+
     .hide.tooltip-box.tooltip-box11 {
         top: 250px !important;
         left: 100px !important;
     }
+
     .hide.tooltip-box.tooltip-box12 {
         top: 250px !important;
         left: 30px !important;
     }
+
     .hide.tooltip-box.tooltip-box13 {
         padding-left: 10px;
         padding-right: 10px;
         top: 270px !important;
         left: 30px !important;
     }
+
     .hide.tooltip-box.tooltip-box14 {
         top: 250px !important;
         left: 10px !important;
     }
+
     .hide.tooltip-box.tooltip-box15 {
         top: 250px !important;
         left: -50px !important;
     }
 
-  }
-  
+}
+
 
 
 
