@@ -92,6 +92,22 @@ a.meanmenu-reveal {
 	text-decoration: none;
 	text-transform: uppercase;
 }
+.mean-container .mean-nav ul li {
+	font-family: 'Rubik', sans-serif;
+	font-weight: 700;
+	display: block;
+	float: left;
+	width: 90%;
+	padding: 1em 5%;
+	margin: 0;
+	text-align: left;
+	color: #1e2a78;
+	border-top: 1px solid #1e2a78;
+	border-left: 1px solid #1e2a78;
+	border-right: 1px solid #1e2a78;
+	text-decoration: none;
+	text-transform: uppercase;
+}
 
 .mean-container .mean-nav ul > li:last-child a {
 	border-bottom: 1px solid #1e2a78;
@@ -151,6 +167,9 @@ a.meanmenu-reveal {
 }
 
 .mean-container .mean-nav ul li a.mean-expand:hover {
+	background: #fff;
+}
+.mean-container .mean-nav ul li .mean-expand:hover {
 	background: #fff;
 }
 

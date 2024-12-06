@@ -2989,8 +2989,12 @@ section.member-skills {
         width: 50%;
     }
         
-    .com-pack-img>img {
-        width: 620px;
+    .com-pack-img:nth-child(2)>img {
+        width: 620px !important;
+    }
+
+    .complete-package-area .container :nth-child(3){
+        flex-direction: row;
     }
 }
 
