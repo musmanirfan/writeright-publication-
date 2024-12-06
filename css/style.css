@@ -635,6 +635,12 @@ section.speciality-area {
     margin-bottom: 120px;
 }
 
+
+.speciality-area .speciality>img{
+    width: 330px !important;
+}
+
+
 .sp-text {
     font-size: 16px;
     font-family: 'Rubik', sans-serif;
@@ -710,6 +716,13 @@ section.speciality-area {
     border-top: 1px solid #f6f6f6;
     padding-top: 44px;
     overflow: hidden;
+}
+
+@media (min-width: 600px) {
+    .speciality-area .speciality>img{
+        width: 600px !important;
+    }
+
 }
 
 /* ------------- # Posts Section ------------- */
@@ -3031,6 +3044,9 @@ section.member-skills {
     gap: 80px;
 }
 
+
+
+
 @media (min-width: 600px) {
     .researchers-worldWide {
         padding-left: 70px;
@@ -3046,6 +3062,7 @@ section.member-skills {
     .researchers-worldWide .section-long-heading>h1{
         font-size: 35px;
     }
+
 
     .research{
         flex-direction: row;
