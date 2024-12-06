@@ -242,8 +242,16 @@ Version: 1.0.0
     color: #fff;
 }
 
+.menu-header-dark .menu-area>ul>li.current-menu-item>a,
+.menu-header-dark .menu-area>ul>li:hover {
+    color: #fff;
+}
+
 .menu-header-dark .menu-area>ul>li>a {
     color: #b5b5b5;
+}
+.menu-header-dark .menu-area>ul>li {
+    color: #b5b5b5 !important;
 }
 
 .menu-header-dark a.large-blue-button.menu-button {
