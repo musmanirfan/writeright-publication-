@@ -250,6 +250,7 @@ Version: 1.0.0
 .menu-header-dark .menu-area>ul>li>a {
     color: #b5b5b5;
 }
+
 .menu-header-dark .menu-area>ul>li {
     color: #b5b5b5 !important;
 }
@@ -2114,6 +2115,8 @@ section.contact-area {
 .contact-form-area {
     margin-top: 114px;
     margin-bottom: 124px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 .contact-form-area h2 {
@@ -2972,3 +2975,18 @@ section.member-skills {
 
 
 
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1060px !important;
+    }
+
+    section.services-area .container,
+    section.features-area .container {
+        max-width: 1170px !important;
+    }
+
+    section.contact-area .container {
+        max-width: 100% !important;
+    }
+}
