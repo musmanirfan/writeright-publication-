@@ -18,8 +18,8 @@
     return (
       rect.top >= 0 &&
       rect.left >= 0 &&
-      rect.bottom <= (window.innerHeight || document. documentElement.clientHeight) &&
-      rect.right <= (window.innerWidth || document. documentElement.clientWidth)
+      rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
+      rect.right <= (window.innerWidth || document.documentElement.clientWidth)
     );
   }
 
@@ -194,5 +194,57 @@
   })
 
 })(jQuery);
+
+
+async function handleBannerForm(e, submitted_from) {
+  e.preventDefault();
+
+  const name = document.getElementById("name").value;
+  const email = document.getElementById("email").value;
+  const phone = document.getElementById("phone").value;
+  const description = document.getElementById("message").value;
+
+  // Prepare the object to send
+  const objToSend = {
+    name,
+    email,
+    phone,
+    description,
+    submitted_from,
+    submitted_at: new Date().toLocaleString(),
+  };
+
+  try {
+    // Make a POST request to the API endpoint
+    const res = await fetch("https://form-submission-google-sheet.vercel.app/submit-form", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(objToSend),
+    });
+    
+    e.target.reset();
+    alert("Form Submitted Successfully");
+  } catch (error) {
+    console.error("Error during API call:", error);
+    alert("An error occurred while submitting the form. Please try again.");
+  }
+  
+}
+
+
+// < !--Start of Tawk.to Script-- >
+{/* <script type="text/javascript"> */ }
+var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
+(function () {
+  var s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];
+  s1.async = true;
+  s1.src = 'https://embed.tawk.to/67538b754304e3196aede0b1/1ief5hha2';
+  s1.charset = 'UTF-8';
+  s1.setAttribute('crossorigin', '*');
+  s0.parentNode.insertBefore(s1, s0);
+})();
+{/* <!--End of Tawk.to Script--> */ }
 
 
