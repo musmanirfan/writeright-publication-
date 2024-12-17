@@ -61,7 +61,7 @@ input:focus, textarea:focus, button:focus {
     color: rgb(255, 255, 255);
     text-transform: uppercase;
     line-height: 60px;
-    padding: 0 42px 0 43px;
+    padding: 0 25px 0 26px;
     letter-spacing: 2.6px;
     display: inline-block;
     transition: 0.3s;

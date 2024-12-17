@@ -223,14 +223,14 @@ async function handleBannerForm(e, submitted_from) {
       },
       body: JSON.stringify(objToSend),
     });
-    
+
     e.target.reset();
     alert("Form Submitted Successfully");
   } catch (error) {
     console.error("Error during API call:", error);
     alert("An error occurred while submitting the form. Please try again.");
   }
-  
+
 }
 
 
@@ -248,3 +248,30 @@ var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
 {/* <!--End of Tawk.to Script--> */ }
 
 
+
+// testimonial sec
+
+document.addEventListener("DOMContentLoaded", function () {
+  const swiper = new Swiper(".mySwiper3", {
+    slidesPerView: 4,
+    spaceBetween: 6,
+    loop: true,
+    autoplay: {
+      delay: 3000,
+      disableOnInteraction: false,
+    },
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+    breakpoints: {
+      320: { slidesPerView: 1, spaceBetween: 20 },
+      640: { slidesPerView: 2, spaceBetween: 3 },
+      1024: { slidesPerView: 4, spaceBetween: 5 },
+    },
+  });
+});

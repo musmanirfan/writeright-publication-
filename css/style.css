@@ -385,6 +385,7 @@ section.banner {
     position: absolute;
     bottom: 84px;
     right: 0;
+    display: none;
 }
 
 .shape-02 {
@@ -480,7 +481,7 @@ section.features-area {
 
 .companies {
     height: 200px;
-    background-color: #f6f6f6;
+    background: #dbd7d7;
 }
 
 /* .companies img {
@@ -516,6 +517,10 @@ section.services-area {
     margin-bottom: 30px;
     transition: 0.3s;
     height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
 }
 
 .service-box:hover {
@@ -541,6 +546,7 @@ section.services-area {
     font-family: 'Poppins', sans-serif;
     color: rgb(34, 54, 69);
     font-weight: bold;
+    text-align: center;
 }
 
 .service-text p {
@@ -549,6 +555,8 @@ section.services-area {
     font-style: normal;
     font-weight: 400;
     color: #6e7e91;
+    text-align: center;
+
 }
 
 /* ------------- # Projects Section ------------- */
@@ -810,7 +818,7 @@ section.posts-area {
 
 /* ------------- # Review Section ------------- */
 
-section.review-area {
+/* section.review-area {
     padding-bottom: 120px;
     ;
 }
@@ -902,6 +910,35 @@ span.client-rating {
 
 .client-rating svg {
     color: #ffc107;
+} */
+
+
+
+.swiper-wrapper {
+    margin-bottom: 20px !important;
+}
+
+.swiper-pagination-bullet {
+    width: 18px !important;
+    height: 18px !important;
+}
+
+.swiper-pagination-bullet {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: rgb(189, 189, 189);
+    margin: 0 5px !important;
+    opacity: 1;
+    transition: background 0.3s ease;
+}
+
+.swiper-pagination-bullet-active {
+    background: #151C4C;
+}
+
+.swiper-wrapper {
+    margin-bottom: 20px !important;
 }
 
 /* slider settings */
@@ -1073,7 +1110,7 @@ section.footer-area input[type="submit"]:active {
 
 .footer-social svg {
     margin-right: 19px;
-    font-size: 16px;
+    font-size: 30px;
     color: rgb(30, 42, 120);
     line-height: 1.125;
 }
@@ -1081,7 +1118,7 @@ section.footer-area input[type="submit"]:active {
 a.go-to-top {
     position: absolute;
     top: 93%;
-    left: calc(100% + 256px);
+    left: 97% !important;
     color: white;
     background: #1e2a78;
     padding: 12px 15px;
@@ -3243,7 +3280,7 @@ section.member-skills {
 
 @media (min-width: 1200px) {
     .container {
-        max-width: 1060px !important;
+        max-width: 1300px !important;
     }
 
     section.services-area .container,
@@ -3254,4 +3291,245 @@ section.member-skills {
     section.contact-area .container {
         max-width: 100% !important;
     }
+}
+
+.topHeader {
+    background-color: #1E2A78;
+    padding-top: 20px;
+    padding-bottom: 8px;
+    font-weight: 600;
+}
+
+.topHeader p {
+    color: white;
+    font-size: larger;
+    text-align: center;
+}
+
+.topHeader p span {
+    color: #F98C54;
+}
+
+.banner {
+    position: relative;
+    padding-bottom: 20px;
+}
+
+.banner .BannerMain {
+    position: relative;
+    z-index: 20;
+}
+
+.banner .BannerMain p {
+    color: white;
+}
+
+.banner .BannerMain .banner-text h1 {
+    color: white;
+}
+
+.banner .BannerMain .banner-text h1 .special {
+    color: #F98C54;
+}
+
+.banner .bannerOverlay {
+    z-index: 10;
+    background: linear-gradient(180deg, #1E2A78, #F98C54);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    opacity: 1;
+    background-position: top left;
+}
+
+.typed-cursor {
+    color: #1e2a78;
+}
+
+
+
+
+
+
+
+
+
+:root {
+    --theme2: #00aaff;
+    /* Define your theme color here if needed */
+}
+
+/* Container for the entire testimonials section */
+.testimonials-section {
+    padding-top: 7rem;
+    /* Tailwind mt-28 ~ 7rem */
+    padding-top: 4rem;
+    /* Tailwind mb-16 ~ 4rem */
+    position: relative;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    background-color: #f6f6f6;
+}
+
+/* Heading styles */
+.testimonials-heading {
+    font-size: 40px;
+    /* text-[40px] */
+    text-align: center;
+    /* text-center */
+    margin-bottom: 2rem;
+    /* mb-8 = 2rem */
+    font-weight: 600;
+    /* font-[600] */
+    line-height: 42px;
+    /* leading-[42px] */
+    margin-left: 2vw;
+    /* ml-[2vw] for small screens */
+}
+
+/* Responsive margin for heading on medium screens */
+@media (min-width:768px) {
+    .testimonials-heading {
+        margin-left: 7vw;
+        /* md:ml-[7vw] */
+    }
+}
+
+/* Highlighted text in heading */
+.testimonials-heading .highlighted {
+    text-transform: capitalize;
+    color: var(--theme2);
+}
+
+/* Adjust spacing for the swiper container */
+.mySwiper3 {
+    position: relative;
+    margin-top: 1.25rem;
+    /* mt-5 */
+}
+
+/* Swiper wrapper spacing */
+.swiper-wrapper {
+    padding-bottom: 5rem;
+    /* pb-20 */
+}
+
+/* Slide spacing: on md screens, add horizontal margin */
+.swiper-slide {
+    margin: 0;
+}
+
+@media (min-width:768px) {
+    .swiper-slide {
+        margin-left: 1.25rem;
+        /* mx-5 ~ 1.25rem each side */
+        margin-right: 1.25rem;
+    }
+}
+
+/* Alternate vertical spacing (for slides with mt-16) */
+.mt-16 {
+    margin-top: 4rem;
+}
+
+/* Card container spacing */
+.card-container {
+    padding-top: 3.5rem;
+    /* pt-14 */
+}
+
+/* Testimonial card styling */
+.testimonial-card {
+    background: #fff;
+    border-radius: 1rem;
+    /* rounded-2xl ~ 1rem radius */
+    position: relative;
+    padding-bottom: 0.75rem;
+    /* pb-3 */
+    padding-left: 20px;
+    /* pl-[20px] */
+    padding-right: 10px;
+    /* pr-[10px] */
+}
+
+/* Client image */
+.client-image {
+    height: 6rem;
+    /* h-24 = 6rem */
+    position: absolute;
+    top: -3rem;
+    /* -top-12 = -3rem */
+    left: 2rem;
+    /* left-8 = 2rem */
+}
+
+/* Spacer for image */
+.spacer {
+    padding-top: 5rem;
+    /* pt-20 */
+}
+
+/* Testimonial text */
+.testimonial-text {
+    font-size: 13px;
+    /* text-[13px] */
+    font-weight: 400;
+    /* font-[400] normal */
+    line-height: 20px;
+    /* leading-[20px] */
+    height: 100px;
+    /* h-[100px] */
+    overflow-y: scroll;
+    /* overflow-y-scroll */
+    padding-right: 10px;
+    /* pr-[10px] */
+    margin: 0;
+}
+
+/* Testimonial footer */
+.testimonial-footer {
+    margin-top: 1rem;
+    /* mt-4 */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Name in testimonial footer */
+.testimonial-footer h3 {
+    font-size: 20px;
+    /* text-[20px] */
+    font-weight: 600;
+    /* font-[600] */
+    margin: 0;
+}
+
+/* Shadow styling for cards (based on .shadowTestimonials) */
+.shadowTestimonials {
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+/* Swiper pagination spacing */
+.swiper-pagination {
+    margin-top: 2.5rem !important;
+    /* !mt-10 = 2.5rem */
+}
+
+/* Scrollbar styling for testimonial text (optional) */
+.testimonial-text::-webkit-scrollbar {
+    width: 6px;
+}
+
+.testimonial-text::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+.testimonial-text::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+.testimonial-text::-webkit-scrollbar-thumb:hover {
+    background: #555;
 }
