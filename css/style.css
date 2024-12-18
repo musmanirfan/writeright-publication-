@@ -3486,6 +3486,7 @@ section.member-skills {
     padding-right: 10px;
     /* pr-[10px] */
     margin: 0;
+    overflow-y: hidden !important;
 }
 
 /* Testimonial footer */
