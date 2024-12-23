@@ -3368,34 +3368,21 @@ section.member-skills {
     padding-top: 4rem;
     /* Tailwind mb-16 ~ 4rem */
     position: relative;
-    padding-left: 2vw;
-    padding-right: 2vw;
+    padding-left: 0vw;
+    padding-right: 0vw;
     background-color: #f6f6f6;
 }
 
-/* Heading styles */
-.testimonials-heading {
-    font-size: 40px;
-    /* text-[40px] */
-    text-align: center;
-    /* text-center */
-    margin-bottom: 2rem;
-    /* mb-8 = 2rem */
-    font-weight: 600;
-    /* font-[600] */
-    line-height: 42px;
-    /* leading-[42px] */
-    margin-left: 2vw;
-    /* ml-[2vw] for small screens */
+
+.testimonials-section .section-heading {
+    padding-left: 6vw;
+    padding-right: 6vw;
+
 }
 
+
 /* Responsive margin for heading on medium screens */
-@media (min-width:768px) {
-    .testimonials-heading {
-        margin-left: 7vw;
-        /* md:ml-[7vw] */
-    }
-}
+
 
 /* Highlighted text in heading */
 .testimonials-heading .highlighted {
