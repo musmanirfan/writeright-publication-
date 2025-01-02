@@ -3360,6 +3360,8 @@ section.member-skills {
 
 :root {
     --theme2: #00aaff;
+    --theme: #3373FF;
+    --gradient: linear-gradient(315deg, #3ebfc2 0%, #0a6688 74%);
     /* Define your theme color here if needed */
 }
 
@@ -3522,4 +3524,209 @@ section.member-skills {
 
 .testimonial-text::-webkit-scrollbar-thumb:hover {
     background: #555;
+}
+@media (min-width: 700px) {
+    .page-header-text{
+        width: 80%;
+    }
+}
+
+.about-banner {
+    background-image: url(../images/service-page/background.png);
+    display: flex;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.about-banner__content {
+    width: 93%;
+    display: grid;
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+    gap: 50px;
+}
+
+.about-banner__heading {
+    font-size: 24px;
+    font-weight: 600;
+    color: white;
+    margin-bottom: 25px;
+}
+
+.about-banner__highlight {
+    color: var(--theme);
+    font-size: 38px;
+}
+
+.about-banner__description {
+    font-size: 12px;
+    color: white;
+    font-weight: 400;
+}
+
+.about-banner__actions {
+    margin-top: 35px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.about-banner__button {
+    background: var(--gradient);
+    color: white;
+    height: 60px;
+    padding: 0 15px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    font-size: large;
+    font-weight: 500;
+}
+
+.about-banner__contact {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    color: white !important;
+}
+
+.about-banner__contact-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 44px;
+    width: 44px;
+    border-radius: 50%;
+    border: 1px solid white;
+    color: white;
+    transform: rotate(90deg);
+}
+
+.about-banner__contact-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.signup-form {
+    background: #041318;
+    background: var(--gradient);
+    z-index: 0;
+    border-radius: 10px;
+    padding: 24px;
+    position: relative;
+    color: white;
+    display: inline-block !important;
+    height: fit-content;
+    width: 100%;
+}
+
+.signup-form::before {
+    content: '';
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    right: 3px;
+    bottom: 3px;
+    background: #041318;
+    border-radius: inherit;
+    z-index: -1;
+}
+
+.signup-form__image {
+    position: absolute;
+    right: 10px;
+    top: -50px;
+    transform: rotate(22deg);
+    height: 112px;
+    object-fit: contain;
+}
+
+.signup-form__title {
+    font-size: 24px;
+    font-weight: 400;
+    width: 80%;
+    line-height: 1.5;
+}
+
+.signup-form__highlight {
+    color: var(--theme);
+}
+
+.signup-form__fields {
+    margin-top: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.signup-form__row {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+
+    gap: 12px;
+}
+
+.signup-form__input,
+.signup-form__select,
+.signup-form__textarea {
+    padding: 10px;
+    border-radius: 7px;
+    background-color: white;
+    color: black;
+}
+
+.signup-form__submit {
+    background: var(--gradient);
+    color: white;
+    padding: 12px;
+    border-radius: 10px;
+    text-align: center;
+    width: 100%;
+}
+
+.signup-form .about-banner__contact-title{
+    color: white;
+}
+
+/* Media Queries */
+@media (min-width: 768px) {
+    .about-banner {
+        min-height: 90vh;
+        padding-bottom: 0;
+        padding-top: 0;
+    }
+
+    .about-banner__content {
+        width: 85%;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 0;
+        align-items: center;
+    }
+
+    .about-banner__heading {
+        font-size: 42px;
+        line-height: 48px;
+    }
+
+    .about-banner__description {
+        font-size: 16px;
+        width: 93%;
+    }
+
+    .signup-form {
+        width: 75%;
+        margin-left: auto;
+    }
+
+    .signup-form__image {
+        right: -30px;
+        top: -60px;
+        height: 112px;
+    }
 }
