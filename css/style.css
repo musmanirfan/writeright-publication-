@@ -1313,6 +1313,8 @@ section.home-02-services-area .service-text {
     display: flex;
     align-items: center;
     position: relative;
+    padding-left: 130px;
+    padding-right: 130px;
 }
 
 /* shape-left */
