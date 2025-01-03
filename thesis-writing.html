@@ -27,6 +27,7 @@ submission.">
     <link rel="stylesheet" href="css/default.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@9/swiper-bundle.min.css" />
 </head>
 
 <body>
@@ -35,60 +36,8 @@ submission.">
     <div class="preloader">
         <div class="loader">
             <img width="250" src="images/logo/site-logo/logo2.png" alt="sdfasf">
-            <!-- <span>W</span>
-            <span>R</span>
-            <span>I</span>
-            <span>T</span>
-            <span>E</span>
-            <span>R</span>
-            <span>I</span>
-            <span>G</span>
-            <span>H</span>
-            <span>T</span> -->
-
-            <!-- <div class="covers">
-                <span></span>
-                <span></span>
-                <span></span>
-                <span></span>
-                <span></span>
-                <span></span>
-                <span></span>
-                <span></span>
-                <span></span>
-            </div> -->
         </div>
     </div>
-
-    <!-- =========================== 1. Top Header Section =========================================== -->
-
-    <!-- <div class="top-header d-flex align-items-center">
-        <div class="container">
-            <div class="row justify-content-between">
-                <div class="col-xl-4 col-lg-5 col-md-6 col-12">
-                    <div class="top-header-contact">
-                        <a href="tel:+1(718)73493">
-                            <i class="fas fa-phone-alt"></i>+1 (718) 73493
-                        </a>
-                    </div>
-                    <div class="top-header-contact">
-                        <a href="mailto:info@example.com">
-                            <i class="fas fa-envelope"></i>info@example.com
-                        </a>
-                    </div>
-                </div>
-                <div class="col-xl-2 col-lg-3 col-md-4 col-sm-0 text-right top-header-social">
-                    <a href="https://www.facebook.com"><i class="fab fa-facebook-f"></i></a>
-                    <a href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
-                    <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
-                    <a href="https://www.youtube.com"><i class="fab fa-youtube"></i></a>
-                    <a href="https://www.snapchat.com/"><i class="fab fa-snapchat m-0"></i></a>
-                </div>
-            </div>
-        </div>
-    </div> -->
-
-    <!-- =========================== 2. Menu Section =========================================== -->
 
     <div class="menu-header d-flex align-items-center">
         <div class="container">
@@ -135,28 +84,65 @@ submission.">
     </div>
     <!-- =========================== 3. Page Header Section =========================================== -->
 
-    <div class="page-header">
-        <div class="about-banner-shape-left wow animate__animated animate__fadeInLeft">
-            <img src="images/shapes/03_shape-01.png" class="wow animate__animated animate__pulse animate__infinite"
-                alt="habu">
-        </div>
-        <div class="about-banner-shape-right wow animate__animated animate__fadeInRight animate__delay-1s">
-            <img src="images/shapes/03_shape-02.png" class="wow animate__animated animate__pulse animate__infinite"
-                alt="habu">
-        </div>
-        <div class="container">
-            <div class="page-header-text wow animate__animated animate__fadeInDown">
-                <h1 class="page-title">Publication Assistance</h1>
-                <span>Home</span>
-                <span class="span-divider font-weight-bold">|</span>
-                <span class="font-weight-bold">Publication Assistance</span>
-                <div class="page-banner-shape-title">
-                    <img src="images/shapes/03_shape-03.png"
-                        class="wow animate__animated animate__fadeInUp animate__delay-1s" alt="">
+    <main class="about-banner">
+        <section class="about-banner__content">
+            <div class="about-banner__text">
+                <h1 class="about-banner__heading">
+                    Professional
+                    <span class="about-banner__highlight">Thesis Writing Service -  </span>
+                    Specifically for Your Academic
+                        Needs
+                </h1>
+                <p class="about-banner__description">
+                    Need PHD Thesis Writing help for academic success? <br>
+Choose from 150+ PH.D. writers.
+                </p>
+                <div class="about-banner__actions">
+                    <button class="about-banner__button">
+                        Get a Quote
+                        <i class="fa fa-angle-right"></i>
+                    </button>
+                    <div class="about-banner__contact">
+                        <div class="about-banner__contact-icon">
+                            <i class="fa fa-phone" aria-hidden="true"></i>
+                        </div>
+                        <div class="about-banner__contact-info">
+                            <div class="about-banner__contact-title">Live Chat</div>
+                            <a href="https://wa.me/+14378262236" target="_blank" class="about-banner__contact-link">+1
+                                (208) 7124-201</a>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
-    </div>
+            <form class="signup-form">
+                <img src="images/formAbsolute.jpg" alt="Deep Water" class="signup-form__image">
+                <h2 class="signup-form__title">
+                    Sign Up Now to <span class="signup-form__highlight">Get 50%</span> Discount
+                </h2>
+                <div class="signup-form__fields">
+                    <div class="signup-form__row">
+                        <input type="text" placeholder="Full Name" class="signup-form__input">
+                        <input type="email" placeholder="Email Address" class="signup-form__input">
+                    </div>
+                    <div class="signup-form__row">
+                        <select class="signup-form__select">
+                            <option value="select-your-service" disabled selected>Select your Service</option>
+                            <option value="Publication-Consulting">Publication Consulting</option>
+                            <option value="Article-Writing">Article Writing</option>
+                            <option value="Manuscript-Writing">Manuscript Writing</option>
+                            <option value="Thesis-Writing">Thesis Writing</option>
+                            <option value="Journal-Writing">Journal Writing</option>
+                            <option value="English-Translation">English Translation</option>
+                            <!-- Other options here -->
+                        </select>
+                        <input type="text" placeholder="Phone Number" class="signup-form__input">
+                    </div>
+                    <textarea placeholder="Brief.." class="signup-form__textarea" rows="3"></textarea>
+                    <button type="submit" class="signup-form__submit">Sign Up</button>
+                </div>
+            </form>
+        </section>
+    </main>
 
 
     <!-- under banner section -->
@@ -194,106 +180,18 @@ submission.">
         </div>
     </section>
 
-    <!-- =========================== 6. Services Section =========================================== -->
-
-    <section class="services-area">
-        <div class="container">
-            <div class="section-heading">
-                <h1>Our Best Features</h1>
-                <p>We deliver unmatched support to make your research stand out at every stage.</p>
-            </div>
-
-            <div class="row customGap">
-                <div class="col-xl-4 col-md-6 mx-auto wow animate__animated animate__slideInUp">
-                    <div class="service-box">
-                        <div class="service-image">
-                            <img width="50" src="images/service-page/apart-1.webp" alt="publication-assistance">
-                        </div>
-                        <div class="service-text">
-                            <h1>Never Late</h1>
-                            <p>Our custom Writeright thesis writing help is always delivered at the decided time; no
-                                matter the length or complexity of the research paper.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-4 col-md-6 mx-auto wow animate__animated animate__slideInUp">
-                    <div class="service-box">
-                        <div class="service-image">
-                            <img width="50" src="images/service-page/apart-2.webp" alt="publication-consulting">
-                        </div>
-                        <div class="service-text">
-                            <h1>Consistently Available</h1>
-                            <p>Never hesitate to avail yourself of our Writeright journal publication assistance at any
-                                time of the day or night! Our team will always be there to assist you promptly,
-                                irrespective of the time zone.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-4 col-md-6 mx-auto wow animate__animated animate__slideInUp">
-                    <div class="service-box">
-                        <div class="service-image">
-                            <img width="50" src="images/service-page/apart-3.webp" alt="publication-assistance">
-                        </div>
-                        <div class="service-text">
-                            <h1>No Confidentiality Breach</h1>
-                            <p>Safe and secured! Our technical team adopts high-end encryption techniques and secured
-                                access to provide top-quality Writeright dissertation writing services with strictly
-                                protected data.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-xl-4 col-md-6 mx-auto wow animate__animated animate__slideInUp">
-                    <div class="service-box">
-                        <div class="service-image">
-                            <img width="50" src="images/service-page/apart-4.webp" alt="publication-assistance">
-                        </div>
-                        <div class="service-text">
-                            <h1>100% Journal Compliant</h1>
-                            <p>Right on track! We offer complete Writeright thesis writing support, from writing to
-                                acceptance to publication; everything is done exactly according to the Writeright
-                                guidelines.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-4 col-md-6 mx-auto wow animate__animated animate__slideInUp">
-                    <div class="service-box">
-                        <div class="service-image">
-                            <img width="50" src="images/service-page/apart-5.webp" alt="publication-assistance">
-                        </div>
-                        <div class="service-text">
-                            <h1>High-quality Figures</h1>
-                            <p>Our Writeright thesis writing experts also add well-designed figures plus tables that
-                                complement the quality of the project and are clearly interpreted in the text.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-4 col-md-6 mx-auto wow animate__animated animate__slideInUp">
-                    <div class="service-box">
-                        <div class="service-image">
-                            <img width="50" src="images/service-page/apart-6.webp" alt="publication-assistance">
-                        </div>
-                        <div class="service-text">
-                            <h1>Logically Aligned</h1>
-                            <p>Another point that adds to the quality of our Writeright thesis editing and writing
-                                services is that we always deliver content that logically progresses from start to end.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
 
 
     <!-- ===========================  High Value Packages Section =============================== -->
 
     <div class="ag-format-container bg-colr">
         <div class="section-heading">
-            <h1>Perfectly Professional Packages</h1>
-            <p>Explore our tailored packages designed to meet your research and publication needs with precision and
-                excellence.</p>
+            <h2>Professional Thesis Writing Assistance & Packages for Academic 
+                Excellence</h2>
+            <p>Struggling with thesis writing? Our professional service offers thesis 
+                writing help for PhD students, providing personalized PhD thesis writing 
+                support to ensure your research stands out. Get expert PhD thesis writing 
+                help and achieve academic success with ease</p>
         </div>
         <div class="ag-courses_box">
             <div class="ag-courses_item">
@@ -374,6 +272,9 @@ submission.">
                     </div>
                 </a>
             </div>
+            <div class="mx-auto mt-30">
+                <a href="contact.html" class="large-blue-button">Get a Quote</a>
+            </div>
 
 
         </div>
@@ -384,7 +285,7 @@ submission.">
     <section class="complete-package-area">
         <div class="container">
             <div class="section-heading">
-                <h1>Reliable Writeright Thesis Writing Support In Your Reach</h1>
+                <h2>Reliable Writeright Thesis Writing Support In Your Reach</h2>
                 <p>Consulting! Writing! Editing! Guaranteeing Your Excellence In Each Step Through our Writeright thesis
                     support.</p>
             </div>
@@ -428,13 +329,104 @@ submission.">
         </div>
     </section>
 
+    <!-- =========================== 6. Services Section =========================================== -->
+
+    <section class="services-area">
+        <div class="container">
+            <div class="section-heading">
+                <h2>Our Best Features</h2>
+                <p>We deliver unmatched support to make your research stand out at every stage.</p>
+            </div>
+
+            <div class="row customGap">
+                <div class="col-xl-4 col-md-6 mx-auto wow animate__animated animate__slideInUp">
+                    <div class="service-box">
+                        <div class="service-image">
+                            <img width="50" src="images/service-page/apart-1.webp" alt="publication-assistance">
+                        </div>
+                        <div class="service-text">
+                            <h2>Never Late</h2>
+                            <p>Our custom Writeright thesis writing help is always delivered at the decided time; no
+                                matter the length or complexity of the research paper.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-md-6 mx-auto wow animate__animated animate__slideInUp">
+                    <div class="service-box">
+                        <div class="service-image">
+                            <img width="50" src="images/service-page/apart-2.webp" alt="publication-consulting">
+                        </div>
+                        <div class="service-text">
+                            <h2>Consistently Available</h2>
+                            <p>Never hesitate to avail yourself of our Writeright journal publication assistance at any
+                                time of the day or night! Our team will always be there to assist you promptly,
+                                irrespective of the time zone.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-md-6 mx-auto wow animate__animated animate__slideInUp">
+                    <div class="service-box">
+                        <div class="service-image">
+                            <img width="50" src="images/service-page/apart-3.webp" alt="publication-assistance">
+                        </div>
+                        <div class="service-text">
+                            <h2>No Confidentiality Breach</h2>
+                            <p>Safe and secured! Our technical team adopts high-end encryption techniques and secured
+                                access to provide top-quality Writeright dissertation writing services with strictly
+                                protected data.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-4 col-md-6 mx-auto wow animate__animated animate__slideInUp">
+                    <div class="service-box">
+                        <div class="service-image">
+                            <img width="50" src="images/service-page/apart-4.webp" alt="publication-assistance">
+                        </div>
+                        <div class="service-text">
+                            <h2>100% Journal Compliant</h2>
+                            <p>Right on track! We offer complete Writeright thesis writing support, from writing to
+                                acceptance to publication; everything is done exactly according to the Writeright
+                                guidelines.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-md-6 mx-auto wow animate__animated animate__slideInUp">
+                    <div class="service-box">
+                        <div class="service-image">
+                            <img width="50" src="images/service-page/apart-5.webp" alt="publication-assistance">
+                        </div>
+                        <div class="service-text">
+                            <h2>High-quality Figures</h2>
+                            <p>Our Writeright thesis writing experts also add well-designed figures plus tables that
+                                complement the quality of the project and are clearly interpreted in the text.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-md-6 mx-auto wow animate__animated animate__slideInUp">
+                    <div class="service-box">
+                        <div class="service-image">
+                            <img width="50" src="images/service-page/apart-6.webp" alt="publication-assistance">
+                        </div>
+                        <div class="service-text">
+                            <h2>Logically Aligned</h2>
+                            <p>Another point that adds to the quality of our Writeright thesis editing and writing
+                                services is that we always deliver content that logically progresses from start to end.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
 
     <!-- =========================== 6. Researchers WorldWide Section =========================== -->
 
     <section class="researchers-worldWide bg-colr">
         <div class="container">
             <div class="section-long-heading">
-                <h1>Internationally Appreciated Writeright Thesis Writing Services</h1>
+                <h2>Internationally Appreciated Writeright Thesis Writing Services</h2>
                 <p>Our exceptional services are trusted by top journals, universities, and institutions globally,
                     ensuring seamless journal article publication for researchers</p>
             </div>
@@ -452,6 +444,185 @@ submission.">
                     <img src="images/service-page/research-sec-img-3.webp" alt="">
                 </div>
             </div>
+        </div>
+    </section>
+
+
+    <!-- testimonial section -->
+
+
+    <section class="testimonials-section">
+        <div class="section-heading">
+            <h2>
+                Feedbacks & Testimonials
+            </h2>
+            <p>Hear from our clients! Genuine feedback and experiences shared by those we've served.</p>
+        </div>
+        <div class="swiper mySwiper3">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="card-container">
+                        <div class="testimonial-card shadowTestimonials">
+                            <img src="/images/home/client-01.png" alt="Client" class="client-image">
+                            <div class="spacer"></div>
+                            <p class="testimonial-text">
+                                Very cooperative staff. They were able to understand my complex project requirements and
+                                deliver everything on time.
+                            </p>
+                            <div class="testimonial-footer">
+                                <h3>John</h3>
+                                <img src="/images/home/stars.png" alt="Stars">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide mt-16">
+                    <div class="card-container">
+                        <div class="testimonial-card shadowTestimonials">
+                            <img src="/images/home/client-02.png" alt="Client" class="client-image">
+                            <div class="spacer"></div>
+                            <p class="testimonial-text">
+                                Best book writing professionals I have came across in USA. They delivered everything
+                                they had promised. Very satisfied.
+                            </p>
+                            <div class="testimonial-footer">
+                                <h3>Marker</h3>
+                                <img src="/images/home/stars.png" alt="Stars">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="card-container">
+                        <div class="testimonial-card shadowTestimonials">
+                            <img src="/images/home/client-03.png" alt="Client" class="client-image">
+                            <div class="spacer"></div>
+                            <p class="testimonial-text">
+                                I was skeptic at first but after talking to Adam and conveying all my queries, I
+                                received better quality work than I had imagined. I recommend their services to everyone
+                                out there.
+                            </p>
+                            <div class="testimonial-footer">
+                                <h3>Elaine</h3>
+                                <img src="/images/home/stars.png" alt="Stars">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide mt-16">
+                    <div class="card-container">
+                        <div class="testimonial-card shadowTestimonials">
+                            <img src="/images/home/client-04.png" alt="Client" class="client-image">
+                            <div class="spacer"></div>
+                            <p class="testimonial-text">
+                                1. To publish my book, I needed a hassle-free book publishing plan. My sales have
+                                increased ever since this website accomplished far more than it promised
+                            </p>
+                            <div class="testimonial-footer">
+                                <h3>Bob</h3>
+                                <img src="/images/home/stars.png" alt="Stars">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="card-container">
+                        <div class="testimonial-card shadowTestimonials">
+                            <img src="/images/home/client-05.png" alt="Client" class="client-image">
+                            <div class="spacer"></div>
+                            <p class="testimonial-text">
+                                Very cooperative staff. They were able to understand my complex project requirements and
+                                deliver everything on time.
+                            </p>
+                            <div class="testimonial-footer">
+                                <h3>John</h3>
+                                <img src="/images/home/stars.png" alt="Stars">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide mt-16">
+                    <div class="card-container">
+                        <div class="testimonial-card shadowTestimonials">
+                            <img src="/images/home/client-06.png" alt="Client" class="client-image">
+                            <div class="spacer"></div>
+                            <p class="testimonial-text">
+                                Best book writing professionals I have came across in USA. They delivered everything
+                                they had promised. Very satisfied.
+                            </p>
+                            <div class="testimonial-footer">
+                                <h3>Marker</h3>
+                                <img src="/images/home/stars.png" alt="Stars">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="card-container">
+                        <div class="testimonial-card shadowTestimonials">
+                            <img src="/images/home/client-07.png" alt="Client" class="client-image">
+                            <div class="spacer"></div>
+                            <p class="testimonial-text">
+                                Very cooperative staff. They were able to understand my complex project requirements and
+                                deliver everything on time.
+                            </p>
+                            <div class="testimonial-footer">
+                                <h3>John</h3>
+                                <img src="/images/home/stars.png" alt="Stars">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide mt-16">
+                    <div class="card-container">
+                        <div class="testimonial-card shadowTestimonials">
+                            <img src="/images/home/client-08.png" alt="Client" class="client-image">
+                            <div class="spacer"></div>
+                            <p class="testimonial-text">
+                                Best book writing professionals I have came across in USA. They delivered everything
+                                they had promised. Very satisfied.
+                            </p>
+                            <div class="testimonial-footer">
+                                <h3>Marker</h3>
+                                <img src="/images/home/stars.png" alt="Stars">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="card-container">
+                        <div class="testimonial-card shadowTestimonials">
+                            <img src="/images/home/client-09.png" alt="Client" class="client-image">
+                            <div class="spacer"></div>
+                            <p class="testimonial-text">
+                                Very cooperative staff. They were able to understand my complex project requirements and
+                                deliver everything on time.
+                            </p>
+                            <div class="testimonial-footer">
+                                <h3>John</h3>
+                                <img src="/images/home/stars.png" alt="Stars">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide mt-16">
+                    <div class="card-container">
+                        <div class="testimonial-card shadowTestimonials">
+                            <img src="/images/home/client-10.png" alt="Client" class="client-image">
+                            <div class="spacer"></div>
+                            <p class="testimonial-text">
+                                Best book writing professionals I have came across in USA. They delivered everything
+                                they had promised. Very satisfied.
+                            </p>
+                            <div class="testimonial-footer">
+                                <h3>Marker</h3>
+                                <img src="/images/home/stars.png" alt="Stars">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-pagination !mt-10"></div>
         </div>
     </section>
 
@@ -525,7 +696,7 @@ submission.">
                 </div>
                 <div class="col-lg-6 speciality-text wow animate__animated animate__slideInRight">
                     <div class="section-heading w-100 mb-28 mt-0">
-                        <h1>Affordable Writeright Thesis Writing Help</h1>
+                        <h2>Affordable Writeright Thesis Writing Help</h2>
                         <p>No unnecessary expenses! Making it easier than ever for researchers to get our affordable
                             Writeright Writeright thesis writing services without causing any financial struggles.</p>
                     </div>
@@ -543,7 +714,7 @@ submission.">
     <div class="custom-projects">
         <div class="container d-lg-flex align-items-center">
             <div class="section-heading">
-                <h1>Achieve Your Goals Today</h1>
+                <h2>Achieve Your Goals Today</h2>
                 <p>Partner with us to reach new heights. Our dedicated team is here to support your journey towards
                     success. Take the first step now with Writeright Publication.</p>
             </div>
@@ -627,6 +798,7 @@ submission.">
     <script src="js/jquery.meanmenu.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/wow.min.js"></script>
+    <script src="https://unpkg.com/swiper@9/swiper-bundle.min.js"></script>
     <script>
         new WOW().init();
     </script>
