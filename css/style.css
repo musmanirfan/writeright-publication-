@@ -884,14 +884,14 @@ section.posts-area {
 /* ------------- # Footer Section ------------- */
 
 section.footer-area {
-    background-color: #f6f6f6;
-    padding: 120px 0;
+    background-color: #1E2A78;
+    padding: 50px 0;
 }
 
 section.footer-area h2 {
     font-size: 20px;
     font-family: 'Poppins', sans-serif;
-    color: rgb(30, 42, 120);
+    color: white;
     font-weight: bold;
     margin-bottom: 45px;
 }
@@ -900,12 +900,12 @@ section.footer-area p,
 section.footer-area li a {
     font-size: 16px;
     font-family: 'Rubik', sans-serif;
-    color: rgb(100, 117, 137);
+    color: white;
     line-height: 2.118;
 }
 
 section.footer-area ul li a:hover {
-    color: rgb(34, 54, 69);
+    color: rgb(126, 128, 129);
 }
 
 section.footer-area ul {
@@ -946,7 +946,7 @@ section.footer-area input {
     background: transparent;
     margin: 0;
     float: left;
-    color: #1e2a78;
+    color: white;
     transition: 0.3s;
 }
 
@@ -1015,7 +1015,7 @@ section.footer-area input[type="submit"]:active {
 .footer-social svg {
     margin-right: 19px;
     font-size: 30px;
-    color: rgb(30, 42, 120);
+    color: white;
     line-height: 1.125;
 }
 
