@@ -3554,8 +3554,8 @@ section.member-skills {
 .signup-form__title {
     font-size: 24px;
     font-weight: 400;
-    width: 80%;
     line-height: 1.5;
+    margin-bottom: 25px;
 }
 
 .signup-form__highlight {
@@ -3632,5 +3632,20 @@ section.member-skills {
         right: -5px;
         top: -30px;
         height: 112px;
+    }
+}
+
+.whatsapp{
+    /* fixed md:bottom-6 bottom-3 md:right-36 right-24 z-50 */
+    position: fixed;
+    bottom: 25px;
+    right: 96px;
+    z-index: 50;
+}
+
+@media (min-width: 786px) {
+    .whatsapp{
+        bottom: 23px;
+        right: 110px;
     }
 }
