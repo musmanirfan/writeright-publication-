@@ -2,6 +2,7 @@
 $title = "Writeright Publication | Exclusive Offer | Budget";
 $favicon = "../assets/favicon.ico";
 $logo = "../assets/images/logo.png";
+$logosrc = "../";
 include '../include/header.php';
 ?>
 

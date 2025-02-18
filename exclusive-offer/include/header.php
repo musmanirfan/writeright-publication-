@@ -104,10 +104,12 @@
 
 <body class="hompg">
   <!-- Google Tag Manager (noscript) -->
-  <noscript><iframe src="ns " height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T5P5TXHK" height="0" width="0"
+    style="display:none;visibility:hidden"></iframe></noscript>
   <!-- End Google Tag Manager (noscript) -->
   <header class="fixed z-50 top-0 left-0 w-full flex justify-between items-center px-[2vw] py-4">
-    <a href="./">
+    <a href="<?php echo isset($logosrc) ? $logosrc : './'; ?>">
+      
       <img src="<?php echo isset($logo) ? $logo : 'assets/images/logo.png'; ?>" alt="Logo" class="sm:w-48 w-40" />
     </a>
 

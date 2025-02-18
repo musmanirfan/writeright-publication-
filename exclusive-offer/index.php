@@ -1,10 +1,10 @@
 <?php include 'include/header.php';?>
 
-<section class="min-h-screen flex justify-center items-center bg-[#E3E2E1]">
+<section class="min-h-screen flex justify-center items-center bg-[url(./assets/images/banner.jpg)] bg-overlay bg-cover bg-center bg-no-repeat">
   <div class="px-1 sm:px-0">
     <p class="text-center text-[#8D8C8C] text-2xl">Publish Your Research in</p>
     <h1 class="text-4xl font-bold text-center text-[#2C3075] mt-2">High-Impact Journals - Fast & Hassle-Free!</h1>
-    <p class="my-6 text-gray-700 text-center sm:w-[500px] text-[12px] mx-auto leading-[1.6]">
+    <p class="my-6 text-gray-700 text-center sm:w-[500px] text-[15px] mx-auto leading-[1.6]">
       Get published in Scopus, Web of Science, SCI, and reputed journals with expert assistance.
       Manuscript Editing, Formatting & Submission – All in One Place!
     </p>

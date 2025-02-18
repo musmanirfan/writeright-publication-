@@ -2,6 +2,7 @@
 $favicon = "../assets/favicon.ico";
 $title = "Writeright Publication | Exclusive Offer | Subject Area";
 $logo = "../assets/images/logo.png";
+$logosrc = "../";
 include '../include/header.php';
 ?>
 
