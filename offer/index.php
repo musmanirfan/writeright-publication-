@@ -7,9 +7,8 @@ include 'include/header.php'; ?>
     class="grid md:grid-cols-5 grid-cols-1 md:gap-0 gap-y-10 items-center sm:w-[85%] w-[90%] mx-auto z-20  2xl:w-[1500px] pt-[8.5rem] pb-16">
     <div class="col-span-3 relative md:pr-[60px]">
       <h1 class="sm:text-[2.5rem] text-2xl font-bold text-white md:leading-[50px]">
-        Research Publication & Writing Services
-        Starting at Just
-        <span class="text-[#343bb1]">$249</span>
+        Research Publication & Writing Services at 
+        <span class="text-[#000eff]">50% Discount</span>
       </h1>
       <p class="text-white mt-2 md:mt-0 text-xl lg:pr-16">
         Get expert assistance in research writing, journal formatting, and
@@ -80,7 +79,7 @@ include 'include/header.php'; ?>
       <h1 class="text-center text-[#2C3075] text-2xl font-bold mb-3">100% Money Back Guarantee</h1>
       <div class="space-y-4">
         <div>
-          <input placeholder="Name" type="text" id="name"
+          <input required placeholder="Name" type="text" id="name"
             class="w-full text-black p-3 text-base focus:outline-none border rounded !border-[#C6C6C6] bg-[#F3F3F3]" />
         </div>
         <div>
@@ -92,7 +91,7 @@ include 'include/header.php'; ?>
             class="w-full text-black p-3 text-base focus:outline-none border rounded !border-[#C6C6C6] bg-[#F3F3F3]" />
         </div>
         <div>
-          <textarea placeholder="Share any specific ideas or requirements you have in mind" type="text" id="description"
+          <textarea required placeholder="Share any specific ideas or requirements you have in mind" type="text" id="description"
             class="w-full text-black p-3 text-base focus:outline-none border rounded !border-[#C6C6C6] bg-[#F3F3F3]"></textarea>
         </div>
       </div>
@@ -162,10 +161,10 @@ registered eBook — we’ve got a package tailored to your needs.
         </div>
         <h3 class="text-xl font-semibold text-gray-800">GOLD Package – Enhanced Publication Support</h3>
         <p class="text-5xl font-bold text-[#2C3075] my-2"><span class="text-3xl font-semibold">$</span>249</p>
-        <a href="https://www.paypal.com/ncp/payment/JY6SR7PE89PF8" class="hidden md:inline">
+        <a href="javascript:;" data-fancybox="" class="hidden md:inline" data-src="#popupform">
           <button
             class="mt-3 hover:!border-[#2C3075] hover:!border-2 px-6 py-2 bg-[#2C3075] font-medium rounded-md hover:bg-white transition-all hover:!text-[#2C3075] !text-white">
-            <i class="fas fa-hand-pointer"></i> Buy Now - Click
+            <i class="fas fa-hand-pointer"></i> Get Offer
           </button>
         </a>
       </div>
@@ -242,7 +241,7 @@ registered eBook — we’ve got a package tailored to your needs.
         </div>
       </div>
       <img class="absolute left-0 top-0 h-36" src="assets/images/promotional.png" />
-      <a class="md:hidden inline" href="https://www.paypal.com/ncp/payment/JY6SR7PE89PF8">
+      <a class="md:hidden inline" href="#">
         <button
           class="mt-3 hover:!border-[#2C3075] hover:!border-2 px-6 py-2 bg-[#2C3075] font-medium rounded-md hover:bg-white transition-all hover:!text-[#2C3075] !text-white">
           <i class="fas fa-hand-pointer"></i> Buy Now - Click

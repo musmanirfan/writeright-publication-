@@ -170,7 +170,7 @@ $('.menu-lclose , .menu-lover').click(function () {
   $('.menu-left').removeClass('enable');
 });
 
-const handleBannerForm = async (e, submitted_from) => {
+const handleBannerForm = async (e) => {
   e.preventDefault();
 
   // Retrieve form input values
@@ -185,13 +185,11 @@ const handleBannerForm = async (e, submitted_from) => {
     email,
     phone,
     description,
-    submitted_from,
+    country: "N/A",
     submitted_at: new Date().toLocaleString()
   };
-
   try {
-    // Make a POST request to the API endpoint
-    await fetch("https://form-submission-google-sheet.vercel.app/submit-form", {
+    await fetch("https://form-submission-google-sheet.vercel.app/writeright-offer", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -199,11 +197,12 @@ const handleBannerForm = async (e, submitted_from) => {
       body: JSON.stringify(objToSend),
     });
     e.target.reset();
-    alert("Form Submitted Successfully");
+    window.location.href = "./formsubmitted.php";
   } catch (error) {
     console.error("Error during API call:", error);
     alert("An error occurred while submitting the form. Please try again.");
   }
+
 };
 
 const handlePopupRectForm = async (e, submitted_from) => {
@@ -213,7 +212,12 @@ const handlePopupRectForm = async (e, submitted_from) => {
   const name = document.getElementById("namePopup").value;
   const email = document.getElementById("emailPopup").value;
   const phone = document.getElementById("phonePopup").value;
-  const description = document.getElementById("descriptionPopup").value;
+  const description = document.getElementById("messagePopup").value;
+  let country = document.getElementById("countryPopup").value;
+
+  if(country === ""){
+    country = "N/A"
+  }
 
   // Prepare the object to send
   const objToSend = {
@@ -221,13 +225,12 @@ const handlePopupRectForm = async (e, submitted_from) => {
     email,
     phone,
     description,
-    submitted_from,
+    country,
     submitted_at: new Date().toLocaleString()
   };
 
   try {
-    // Make a POST request to the API endpoint
-    await fetch("https://form-submission-google-sheet.vercel.app/submit-form", {
+    await fetch("https://form-submission-google-sheet.vercel.app/writeright-offer", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -235,9 +238,7 @@ const handlePopupRectForm = async (e, submitted_from) => {
       body: JSON.stringify(objToSend),
     });
     e.target.reset();
-    // Hide the popup
-    $.fancybox.close();
-    alert("Form Submitted Successfully");
+    window.location.href = "./formsubmitted.php";
   } catch (error) {
     console.error("Error during API call:", error);
     alert("An error occurred while submitting the form. Please try again.");
