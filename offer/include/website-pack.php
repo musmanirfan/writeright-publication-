@@ -8,9 +8,8 @@
                         <h1 class="text-[#2C3075] text-2xl font-semibold text-center">Enhancement + Publication</h1>
                         <p class="text-black mt-3">Perfect for researchers with a completed manuscript looking to
                             refine and publish it in a high-impact journal.</p>
-                        <h3 class="pack-name"> <span>$</span>699</h3>
                         <a
-                            class="px-4 py-2 font-bold justify-center flex item-center rounded-full text-lg !border-[#2C3075] !text-[#2C3075] border focus:outline-none"><button
+                            class="px-4 py-2 font-bold justify-center flex item-center rounded-full text-lg !border-[#2C3075] !text-[#2C3075] border focus:outline-none mt-6"><button
                                 style="outline: none">GOLD Package</button></a>
                     </div>
                     <div class="pack-list pack-ul">
@@ -40,7 +39,7 @@
                         <ul>
                             <li>
                                 <a href="javascript:;" data-fancybox="" data-src="#popupform"
-                                    class="order_now various fas fa-hand-pointer flex items-center gap-2">Get Offer</a>
+                                    class="order_now various fas fa-hand-pointer flex items-center gap-2">Get a Quote</a>
                             </li>
                             <li><a class="live_chat chat" href="javascript:;">Live Chat</a></li>
                         </ul>
@@ -55,9 +54,8 @@
                         <h1 class="text-[#2C3075] text-2xl font-semibold text-center">Writing + Publication</h1>
                         <p class="text-black mt-3">Designed for those who need complete research support — from
                             topic selection to successful publication.</p>
-                        <h3 class="pack-name"> <span>$</span>699</h3>
                         <a
-                            class="px-4 py-2 font-bold justify-center flex item-center rounded-full text-lg !border-[#2C3075] !text-[#2C3075] border focus:outline-none"><button
+                            class="px-4 py-2 font-bold justify-center flex item-center rounded-full text-lg !border-[#2C3075] !text-[#2C3075] border focus:outline-none mt-6"><button
                                 style="outline: none">PLATINUM Package</button></a>
                     </div>
                     <div class="pack-list pack-ul">
@@ -92,7 +90,7 @@
                             <li>
                                 <a href="javascript:;" data-fancybox="" data-src="#popupform"
                                     class="order_now various fas fa-hand-pointer flex items-center gap-2">Get
-                                    Offer</a>
+                                    a Quote</a>
                             </li>
                             <li><a class="live_chat chat" href="javascript:;">Live Chat</a></li>
                         </ul>

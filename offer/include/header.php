@@ -42,7 +42,7 @@
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KVRGC8W7" height="0" width="0"
             style="display:none;visibility:hidden"></iframe></noscript>
 
-    <header class="w-full flex justify-between items-center px-[7.5vw] py-4">
+    <header class="w-full flex justify-between items-center sm:px-[7.5vw] px-[4vw] py-4">
         <a href="<?php echo isset($logosrc) ? $logosrc : './'; ?>">
 
             <img src="<?php echo isset($logo) ? $logo : './assets/images/logo-white.png'; ?>" alt="Logo"

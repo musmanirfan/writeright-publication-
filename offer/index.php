@@ -6,7 +6,7 @@ include 'include/header.php'; ?>
   <div
     class="grid md:grid-cols-5 grid-cols-1 md:gap-0 gap-y-10 items-center sm:w-[85%] w-[90%] mx-auto z-20  2xl:w-[1500px] pt-[8.5rem] pb-16">
     <div class="col-span-3 relative md:pr-[60px]">
-      <h1 class="sm:text-[2.5rem] text-2xl font-bold text-white md:leading-[50px]">
+      <h1 class="sm:text-[2.5rem] text-3xl font-bold text-white md:leading-[50px] leading-[40px]">
         Research Publication & Writing Services at 
         <span class="text-[#000eff]">50% Discount</span>
       </h1>
@@ -160,7 +160,6 @@ registered eBook — we’ve got a package tailored to your needs.
           <i class="fas fa-layer-group text-4xl text-[#2C3075]"></i>
         </div>
         <h3 class="text-xl font-semibold text-gray-800">GOLD Package – Enhanced Publication Support</h3>
-        <p class="text-5xl font-bold text-[#2C3075] my-2"><span class="text-3xl font-semibold">$</span>249</p>
         <a href="javascript:;" data-fancybox="" class="hidden md:inline" data-src="#popupform">
           <button
             class="mt-3 hover:!border-[#2C3075] hover:!border-2 px-6 py-2 bg-[#2C3075] font-medium rounded-md hover:bg-white transition-all hover:!text-[#2C3075] !text-white">
@@ -244,7 +243,7 @@ registered eBook — we’ve got a package tailored to your needs.
       <a class="md:hidden inline" href="#">
         <button
           class="mt-3 hover:!border-[#2C3075] hover:!border-2 px-6 py-2 bg-[#2C3075] font-medium rounded-md hover:bg-white transition-all hover:!text-[#2C3075] !text-white">
-          <i class="fas fa-hand-pointer"></i> Buy Now - Click
+          <i class="fas fa-hand-pointer"></i> Get a Quote
         </button>
       </a>
     </div>
