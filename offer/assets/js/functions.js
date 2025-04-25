@@ -78,10 +78,6 @@ $(document).ready(function () {
   });
 });
 
-$(".chat").click(function () {
-  Tawk_API.toggle();
-});
-
 $(window).scroll(function () {
   if ($(this).scrollTop() > 1) {
     $(".header123").addClass("navbar-shrink");

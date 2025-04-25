@@ -8,7 +8,7 @@ include 'include/header.php'; ?>
     <div class="col-span-3 relative md:pr-[60px]">
       <h1 class="sm:text-[2.5rem] text-3xl font-bold text-white md:leading-[50px] leading-[40px]">
         Research Publication & Writing Services at 
-        <span class="text-[#000eff]">50% Discount</span>
+        <span class="text-[#FC7F3F]">50% Discount</span>
       </h1>
       <p class="text-white mt-2 md:mt-0 text-xl lg:pr-16">
         Get expert assistance in research writing, journal formatting, and
@@ -64,7 +64,7 @@ include 'include/header.php'; ?>
       <div class="md:gap-3 mt-3 flex flex-wrap md:justify-start justify-between">
         <div
           class="md:!px-4 md:py-0 p-2 flex item-center rounded-lg text-lg md:h-16 !hover:text-black bg-transparet !border-white text-white border focus:outline-none transition-all">
-          <a href="javascript:;" class="chat hover:!text-white !mt-2">Talk With Expert
+          <a href="https://wa.me/+16672753686" target="_blank" class="hover:!text-white !mt-2">Talk With Expert
           </a>
         </div>
         <a href="javascript:;" name="for $244" data-fancybox="" title="Lets Get Started"
@@ -141,7 +141,7 @@ include 'include/header.php'; ?>
 <section class="packages-block !mt-20 !p-0" id="pricingSection">
   <div class="sm:w-[85%] w-[90%] mx-auto 2xl:w-[1500px]">
     <h2 class="text-3xl mb-3 font-semibold mx-auto w-full text-center">
-      Pricing Plans That Fit Every Researcher’s Need
+      Packages That Fit Every Researcher’s Need
     </h2>
     <p class="text-center text-wrap -mt-2">
       At <span class="text-[#2C3075] !inline-block !-mt-1 font-semibold">WriteRight Publication,</span> we deliver premium publication
@@ -273,7 +273,7 @@ academic standards.</p>
       <div>
         <a href="#pricingSection"
           class="border border-white text-white bg-transparent rounded py-[14px] px-[11px] text-[18px] font-medium text-lg">See
-          Pricing</a>
+          Packages</a>
       </div>
       <button data-src="#popupform" name="for $244" data-fancybox="" title="Lets Get Started"
         class="py-[14px] px-[11px] text-[18px] font-medium text-lg bg-[#2C3075] text-white rounded">Let's Work
@@ -358,7 +358,7 @@ with you at every stage.
           <div class="flex gap-6 mt-4">
             <div
               class="bg-[#2C3075] text-white text-lg font-semibold hover:opacity-90 rounded-lg transition-all duration-300 active:scale-90 w-fit">
-              <a href="javascript:;" class="chat banner-btn yb-btn various">Live Chat
+              <a href="https://wa.me/+16672753686" target="_blank" class="banner-btn yb-btn various">Live Chat
               </a>
             </div>
             <a href="javascript:;" name="for $244" data-fancybox="" title="Lets Get Started"
@@ -394,7 +394,7 @@ contributions.
           <div class="flex gap-6 mt-4">
             <div
               class="bg-[#2C3075] text-white text-lg font-semibold hover:opacity-90 rounded-lg transition-all duration-300 active:scale-90 w-fit">
-              <a href="javascript:;" class="chat banner-btn yb-btn various">Live Chat
+              <a href="https://wa.me/+16672753686" target="_blank" class="banner-btn yb-btn various">Live Chat
               </a>
             </div>
             <a href="javascript:;" name="for $244" data-fancybox="" title="Lets Get Started"
@@ -421,13 +421,12 @@ stage — from manuscript enhancement to successful journal
 submission.</p>
     <div class="flex items-center flex-wrap gap-3 justify-center mt-4">
       <div id="testimonial">
-        <a href="tel:+7379103666"
+        <a href="tel:+17379103666"
           class="border border-white text-white bg-transparent rounded py-[14px] px-[11px] text-[18px] font-medium text-lg">Call
           Now</a>
       </div>
-      <button
-        class="border border-white text-white bg-transparent rounded py-[14px] px-[11px] text-[18px] font-medium text-lg chat banner-btn yb-btn various">Talk
-        to an Expert</button>
+      <a href="https://wa.me/+16672753686" target="_blank"
+        class="border border-white text-white bg-transparent rounded py-[14px] px-[11px] text-[18px] font-medium text-lg">Whatsapp Now</a>
       <button data-src="#popupform" name="for $244" data-fancybox="" title="Lets Get Started"
         class="py-[14px] px-[11px] text-[18px] font-medium text-lg bg-[#2C3075] text-white rounded">Start Your Publication
         Today</button>

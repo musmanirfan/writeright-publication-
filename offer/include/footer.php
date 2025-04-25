@@ -110,6 +110,12 @@
     </form>
 </div>
 
+<div class="fixed bottom-7 right-8 z-50">
+    <a href="https://wa.me/+16672753686" target="_blank">
+        <img src="./assets/images/whatsapp.svg" alt="Whatsapp" class="h-[75px] ">
+    </a>
+</div>
+
 <?php include 'include/js.php'; ?>
 </body>
 
