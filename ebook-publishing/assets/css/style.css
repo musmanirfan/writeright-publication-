@@ -1358,3 +1358,24 @@ footer p span {
 .close-button:hover {
     color: #888;
 }
+
+
+
+.whatsapp{
+    /* fixed md:bottom-6 bottom-3 md:right-36 right-24 z-50 */
+    position: fixed;
+    bottom: 25px;
+    right: 96px;
+    z-index: 50;
+}
+
+.whatsapp img{
+    height: 70px;
+}
+
+@media (min-width: 786px) {
+    .whatsapp{
+        bottom: 23px;
+        right: 130px;
+    }
+}

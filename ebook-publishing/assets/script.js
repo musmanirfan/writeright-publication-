@@ -15,7 +15,6 @@ async function onsubmission(e) {
     email,
     phone,
     message,
-    submitted_from: "Landing Page",
     submitted_at: new Date().toLocaleString()
   }
 
@@ -113,3 +112,16 @@ closeModalBtn.addEventListener("click", closeModal);
 modalOverlay.addEventListener("click", closeModal);
 
 
+
+// < !--Start of Tawk.to Script-- >
+{/* <script type="text/javascript"> */ }
+var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
+(function () {
+  var s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];
+  s1.async = true;
+  s1.src = 'https://embed.tawk.to/67538b754304e3196aede0b1/1ief5hha2';
+  s1.charset = 'UTF-8';
+  s1.setAttribute('crossorigin', '*');
+  s0.parentNode.insertBefore(s1, s0);
+})();
+{/* <!--End of Tawk.to Script--> */ }
