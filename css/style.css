@@ -3649,3 +3649,8 @@ section.member-skills {
         right: 110px;
     }
 }
+
+.service-box h2 {
+    text-align: center;
+    font-size: 31px;
+}
