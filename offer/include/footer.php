@@ -23,7 +23,7 @@
                         <a class="telicon hover:text-white !mx-0 !text-left" href="javascript:;">
                             <i class="fa !mr-1 fa-map-marker"></i>
                             <strong>Address :</strong>
-                            Bowmanville Ontario, Canada
+                            Based in UK, Canada, Middle East and Australia
                         </a>
                     </li> -->
                 </ul>
