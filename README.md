@@ -1,1 +1,0 @@
-"# writeright-publication-" 
